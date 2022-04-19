@@ -42,11 +42,11 @@ $payment_email_address = $response->subscriber->email_address;
 
 if ($status == 'ACTIVE' && $subscriptionID == $subscriberID) {
 
-        header("Location: ./signUp.php?status=".$status);
+        header("Location: signUp.php?status=".$status);
         
         }
         else {
-            header("Location: ./signUpAndPay.php?status=".$status);
+            header("Location: signUpAndPay.php?status=".$status);
         }
 */
 }
