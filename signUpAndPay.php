@@ -34,6 +34,8 @@ $token = $_GET['access_token'];
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="rgb(36, 131, 255)">
     <meta name="msapplication-TileColor" content="rgb(36, 131, 255)">
     <meta name="theme-color" content="rgb(36, 131, 255)">
+    
+     <script src="javascripts/date_update.js" defer></script> <!-- copyright date update -->
 
 </head>
 <body onload="mouseEvent();">
@@ -42,11 +44,6 @@ $token = $_GET['access_token'];
         <script src="https://www.paypal.com/sdk/js?client-id=AUYsMmq7-qoHApAcALfn0vOAIMrjSbZvImJaKioDqlK8aiUFi-xqB0g-IqL3ZOgbrHB3mRaclHXlLRv3&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
         <script> var token = '<?php echo $token; ?>'; </script> <!--convert token to js-->
         
-
-        <script src="javascripts/date_update.js" defer></script> <!-- copyright date update -->
-        <script src="javascripts/signUpData.js" defer></script> <!-- add subscription data to local storage -->
-
-
 <!--[if lt IE 7]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p> <![endif]-->
         
 <div class="nav_wrapper">
