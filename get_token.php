@@ -28,10 +28,15 @@ else {
     //var_dump($response);
     $access_token = $response->access_token;
     var_dump($access_token);
-/*
+    
+/*  //this path will create a new product then a new plan each time someone subscribes
     if ($access_token) {
-        header("Location: createProduct.php?access_token=" . $access_token);
-        
+        header("Location: createProduct.php?access_token=" . $access_token);   
+    }
+*/
+    /* // use this path for single plan already created within paypal and plan link within buttons script
+    if ($access_token) {
+        header("Location: signUpAndPay.php?access_token=" . $access_token);
     }
 */
 
