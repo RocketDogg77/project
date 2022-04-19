@@ -121,7 +121,7 @@ $token = $_GET['access_token'];
             console.log(data);
 
                 alert("Thanks for subscribing, your ID is " + data.subscriptionID); // optional success message for the subscriber here
-                window.location = "php/paypalReturnedInfo.php?subscriptionID=" + data.subscriptionID + "&access_token=" + token;
+                window.location = "paypalReturnedInfo.php?subscriptionID=" + data.subscriptionID + "&access_token=" + token;
 
             },
 
